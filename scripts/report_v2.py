@@ -441,7 +441,7 @@ def main():
 
     print(f"[5/5] render HTML ...")
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    out = Path(args.out) / f"{symbol}_report_v2_{datetime.now().strftime('%Y%m%d_%H%M')}.html"
+    out = Path(args.out) / f"{symbol}_report_v2.html"   # stable name: new run overwrites old
     render_html(symbol, cards, tech, verdict, ECHARTS_MIN.read_text(encoding="utf-8"), out)
     print(f"OK: {out}")
     return 0
