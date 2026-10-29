@@ -1,5 +1,7 @@
 # trade-reports
 
+WORK IN PROCESS.
+
 Full index with verdicts & confidence: **[report index](https://jessbnault.github.io/trade-reports/reports/)**
 
 ## How it works
